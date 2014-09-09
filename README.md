@@ -11,4 +11,6 @@ RANK is available for download, as well as updated versions, at https://github.c
 
 The tool's file name is Rank.xlsm which is a macro-enabled file. To use, select it from the file list and download it by clicking on "View Raw" in the github window. Make sure that editing and macros are enabled. RANK requires a square matrix with 1-link connections identified as an input for analysis. An example 10-node network Excel file is also available named ExampleNetwork.xlsx for users to try RANK before creating their own input matrix. 
 
-The first worksheet in the RANK.xlsm workbook is the QuickStart Guide for instructions and introduction to the nomenclature used throughout the documentation. 
+The first worksheet in the RANK.xlsm workbook is the QuickStart Guide for instructions and introduction to the nomenclature used throughout the documentation.
+
+The worksheet Example Network can be used to try the tool. It is a 10-node network with three sources, two sinks, and five intermediate nodes. The input matrix can be copied and pasted from the Excel sheet into RANK. When using Rank for the Example Network, good values to use the first time for the Threshold and Reducndancy Value are 3.0 and 0.75, respectively.
